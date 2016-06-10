@@ -1,6 +1,15 @@
-.header{height:120px;background:#FFFFFF;}
-.header .headercontent{width:985px; margin:0 auto;}
-.logo{position:absolute;top: 20px;left: 20; }
+
+.g-hd .m-logo{background:#99ccff;display:block;float:left;height:50px;position:relative;top:21px;left:20px;width:50px;}
+.m-topboxlist {color: #e6e6fa;height:90px;line-height:90px;width:700px;margin-left:350px;}
+.m-topboxlist span {overflow: hidden;float: left;height: 90px;line-height: 90px width: 4px;}
+.m-topboxlist a { text-decoration: none;list-style:none;color: #888;float: left;font-size: 16px; height: 90px;line-height: 90px;margin: 0 25px;position: relative;}
+.m-topboxlist a:hover {color: #C71585;}
+.m-topboxlist a:hover i {width: 100%;}
+.m-topboxlist a i {background: #C71585 none repeat scroll 0 0;display: inline;height: 5px;left: 0;position: absolute;top: 0;transition: all 0.2s ease-out 0s;width: 0;}
+.zheng{width: 300px;height: 150px;margin: 0px;}
+.uptop{position:  fixed;bottom:50px;right: 50px;}
+
+.header{position: absolute;top:60px;}
 .searchbox{width:483px;height:60px; margin-left:448px;position:absolute;top: 20px;} /*定义搜索块样式*/
 .search_form{position:relative; height:31px; margin:20px;display:inline-block;}   /*定义搜索表单样式*/
 .search_form:hover{-webkit-box-shadow:0 0 3px #458B74;-moz-box-shadow:0 0 3px #458B74}  
@@ -52,7 +61,8 @@ display:inline-block; font-size:16px; vertical-align:middle; color:#f3f7fc;posit
 	height:auto;
 	margin:2px;         
 }
-.content{width:850px; height:1000px;background:#F7F3F7;position:relative;left:300px;top:-200px;}
+.uptop{width: 50px;height: 50px;float:fixed;}
+.content{width:850px; height:1000px;background:#F7F3F7;position:relative;left:300px;top:-170px;}
 .category{
 	      width:400px;height:300px;/*定义宽高*/
 		  font-size:36px; margin-top:10px; margin-left:10px;  /*定义外补白*/
