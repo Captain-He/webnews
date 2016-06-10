@@ -1,0 +1,95 @@
+ .good-mes{
+ 	width: 100px;
+	height: 300px;
+	float:left; 
+}
+.good-mess{
+	width: 250px;
+	height: 300px;
+	float: left;
+}
+
+.good-mes div{ 
+	background: #CD1076;
+	text-align: center;
+	margin: 20px;
+	color: white;
+	width: 100px;
+	height: 30px;
+}
+.good-mess div{ 
+	
+	margin: 28px;
+}
+.good{
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.good img{
+	width: 300px;
+	height: 300px;
+
+}
+.tall{
+	padding: 50px;
+	margin: 50px;
+	height: 300px;
+}
+.des{
+	margin-left: 100px;
+	background:#BFEFFF;
+	width: 600px;
+	height: 150px;
+	
+}
+.des p{
+	text-align: center;
+	color: white;
+}
+.des div{
+	background: #CD1076;
+	text-align: center;
+	color: white;
+	width: 100px;
+	height: 30px;
+}
+.bb{
+	margin-top: 50px;
+	margin-left: 100px;
+	background:#BFEFFF;
+	width: 600px;
+	height: 300px;
+
+}
+.bb-0{
+	background: #CD1076;
+	text-align: center;
+	color: white;
+	width: 100px;
+	height: 30px;
+}
+.bb-1 {
+	float: left;
+	margin: 10px;
+}
+.bb-2 {
+	float: left;
+	color: white;	
+}
+
+.bb img{
+	width: 50px;
+	height: 50px;
+}
+.bb-1 div{
+	margin:20px;
+}
+.bb-2 div
+{
+	margin:50px;
+}
+.input{
+	margin-top:200px;
+	margin-left: 50px;
+}
