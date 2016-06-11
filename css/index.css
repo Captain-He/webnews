@@ -1,108 +1,88 @@
-body{
-	margin:20px;
-	background: url(../images/4.jpg) no-repeat;
+.content{
+	height:2000px;	
 }
-/*外层盒子*/
-#container{
-	width:500px;
-	height: 400px;
-	position:absolute;
-	top:300px;
-	left: 400px;
-	z-index: 2;
-}
-
-/*菜单部分*/
-ul#tab{                                 /*菜单条*/
-	list-style-type:none;
-	margin:0px;
-	padding-left:0px;			/* 左侧无空隙 */
-	padding-bottom:23px;
-		/* 菜单的下边框 */
-	font:bold 12px verdana, arial;
-}
-ul#tab li{                             /*菜单*/
-	float:left;
-	height:22px;
-	background-color:#ab0000;
-	margin:0px 3px 0px 0px;	
-	border:1px solid #efa7a7;
-}
-ul#tab a:link, ul#tab a:visited{           /*链接和访问过链接*/
-	display:block;			/* 区块元素 */
-	color:#fff;
-	text-decoration:none;
-	padding:5px 10px 3px 10px;
-}
-ul#tab a:hover{                  /*鼠标经过链接*/
-	background-color:#efa7a7;
-	color:#FFFFFF;
-}
-
-/* 当前页面的菜单项 */
-body#cloth li.cloth,	
- body#computer li.computer{
-	border-bottom:1px solid #000;	/* 黑色下边框，覆盖<ul>中的粉色下边框 */
-}
-/* 当前页面的菜单项的超链接和访问过链接 */
-body#cloth li.cloth a:link, body#cloth li.cloth a:visited,	
-body#computer li.computer a:link, body#computer li.computer a:visited{
-	color:#ff5050;
-	background-color:#000;
-}
-/* 当前页面的菜单项的鼠标经过链接 */
-body#cloth li.cloth a:hover,  body#computer li.computer a:hover{
-	color:#fff;
-	text-decoration:underline;
-}
-
-/*内容部分*/
-#content{					/* 具体内容 */
-	
-	padding:15px;
-	font-size:12px;
-	height:200px;
-	margin: 30px;
-	
-}
-.meng{
-	
-	background:white ;opacity: 0.5;
-	width:500px;
-	height: 250px;
-	position:absolute;
-	top:325px;
-	left: 380px;
-	z-index: 1;
-}
-.png{
+.t1{
 	position: absolute;
-	top: 176px;
-	left: 360px;
-	width: 60px;
-	height: 20px;
-}
-.g-hd{background-position: 0 0;background-color: #FFFFFF;height: 50px;width:200px;margin: 0;padding: 0;}
-.g-hd .m-logo{background:#99ccff;display:block;float:left;height:50px;position:relative;top:21px;left:20px;width:50px;}
-.m-topboxlist {color: #e6e6fa;height:90px;line-height:90px;width:700px;margin-left:350px;}
-.m-topboxlist span {overflow: hidden;float: left;height: 90px;line-height: 90px width: 4px;}
-.m-topboxlist a { text-decoration: none;list-style:none;color: #888;float: left;font-size: 16px; height: 90px;line-height: 90px;margin: 0 25px;position: relative;}
-.m-topboxlist a:hover {color: #0080ff;}
-.m-topboxlist a:hover i {width: 100%;}
-.m-topboxlist a i {background: #0080ff none repeat scroll 0 0;display: inline;height: 5px;left: 0;position: absolute;top: 0;transition: all 0.2s ease-out 0s;width: 0;}
+	top:250px;
+	left: 310px;
+	background-color: red;
+	width: 80px;
+	height: 30px;
+	text-align: center;
 
-.g-hd {
-    position: relative;
-    z-index: 99;
-    height: 90px;
-    background: url(../images/4.jpg) repeat-x;
 }
-.zheng{
-	width: 300px;
-	height:150px;
+.t2{
+	position: absolute;
+	top:580px;
+	left: 310px;
+	background-color: red;
+	width: 80px;
+	height: 30px;
+	text-align: center;
 }
-.footer{ background: repeat-x 0 -206px; padding:30px 0 0 0; clear:both;text-align:center;position:absolute;
-	top:650px;left: 200px;
-	}
-.footerBox{width:970px; margin:0 auto;color:#999999; }
-.footer .footerbot{height:41px; margin-top:10px;}
+.t3{
+	position: absolute;
+	top:900px;
+	left: 310px;
+	background-color: red;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+}
+.t4{
+	position: absolute;
+	top:1200px;
+	left: 310px;
+	background-color: red;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+}
+.t5{
+	position: absolute;
+	top:1500px;
+	left: 310px;
+	background-color: red;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+}
+.t6{
+	position: absolute;
+	top:1800px;
+	left: 310px;
+	background-color: red;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+}
+.t-1{
+	position: absolute;
+	top:250px;
+	left: 310px;
+}
+.t-2{
+	position: absolute;
+	top:580px;
+	left: 310px;
+}
+.t-3{
+	position: absolute;
+	top:900px;
+	left: 310px;
+}
+.t-4{
+	position: absolute;
+	top:1200px;
+	left: 310px;
+}
+.t-5{
+	position: absolute;
+	top:1500px;
+	left: 310px;
+}
+.t-6{
+	position: absolute;
+	top:1800px;
+	left: 310px;
+}

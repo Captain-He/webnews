@@ -1,0 +1,80 @@
+
+.g-hd .m-logo{background:#99ccff;display:block;float:left;height:50px;position:relative;top:21px;left:20px;width:50px;}
+.m-topboxlist {color: #e6e6fa;height:90px;line-height:90px;width:700px;margin-left:350px;}
+.m-topboxlist span {overflow: hidden;float: left;height: 90px;line-height: 90px width: 4px;}
+.m-topboxlist a { text-decoration: none;list-style:none;color: #888;float: left;font-size: 16px; height: 90px;line-height: 90px;margin: 0 25px;position: relative;}
+.m-topboxlist a:hover {color: #C71585;}
+.m-topboxlist a:hover i {width: 100%;}
+.m-topboxlist a i {background: #C71585 none repeat scroll 0 0;display: inline;height: 5px;left: 0;position: absolute;top: 0;transition: all 0.2s ease-out 0s;width: 0;}
+.zheng{width: 300px;height: 150px;margin: 0px;}
+.uptop{position:  fixed;bottom:50px;right: 50px;}
+
+.header{position: absolute;top:60px;}
+.searchbox{width:483px;height:60px; margin-left:448px;position:absolute;top: 20px;} /*定义搜索块样式*/
+.search_form{position:relative; height:31px; margin:20px;display:inline-block;}   /*定义搜索表单样式*/
+.search_form:hover{-webkit-box-shadow:0 0 3px #458B74;-moz-box-shadow:0 0 3px #458B74}  
+.sinput{float:left; width:300px; height:21px; line-height:21px; padding:4px 7px; color:#b3b3b3;   
+				border:1px solid #8B1A1A; border-radius:2px 0 0 2px; background-color:#FFFFFF; } /* 定义输入框样式*/
+/* 定义搜索按钮样式*/	
+
+.sbtn {float:left; width:60px; height:31px; padding:0 12px; margin-left:-1px;
+border-radius:0 2px 2px 0; border:1px solid #8B1A1A; background-color:#8B1A1A; cursor:pointer;
+display:inline-block; font-size:16px; vertical-align:middle; color:#f3f7fc;position:absolute;
+}
+.sbtn:hover{background: #8B1A1A;}
+.header .hotkeywords{margin-left:486px; padding:6px 0 0 0; color:#8B1A1A; height:15px; overflow:hidden; line-height:15px; width:495px;position:absolute;top: 80px;}
+.header .hotkeywords a:link,.header .hotkeywords a:visited,.header .hotkeywords a:active{color:#8A8A8A;}
+.header .hotkeywords a:hover{color:#8B1A1A;}
+.logo{width: 100px;height: 100px;}
+
+#nav{    /*导航条所在div样式*/
+	font-size:14px;
+	font-family:黑体;
+	width:120px;
+	position: relative ;
+	top: 200px;
+	left: 20px;
+	position:fixed;
+
+}
+#nav ul{
+	list-style-type:none;	/* 不显示项目符号 */
+	margin:0px;
+	padding:0px;
+}
+#nav li a{                             /*链接基本样式*/
+	display:block;				/* 区块显示 */
+	padding:8px;
+	text-decoration:none;                 /* 无下划线 */   
+	text-align:center;
+}
+#nav li a:link,#nav li a:visited{				
+	background:#fff;		/* 未访问和已访问链接样式 */
+	color:black;
+}
+
+#nav li a:hover{				
+	background:#c7223d;		/* 鼠标经过时样式 */
+	color:white;
+}
+#nav li img{
+	border:0;
+	width:20px;
+	height:auto;
+	margin:2px;         
+}
+.uptop{width: 50px;height: 50px;float:fixed;}
+.content{width:850px; background:#F7F3F7;position:relative;left:300px;top:85px;}
+.category{
+	      width:400px;height:300px;/*定义宽高*/
+		  font-size:36px; margin-top:10px; margin-left:10px;  /*定义外补白*/
+		  position:relative; float:left;  /* 左浮动*/
+}
+.category:hover{ border:#83b712 1px solid; /*定义边框*/margin-top:8px; margin-left:8px;  /*定义外补白*/}			
+/*结束定义主体内容样式 */
+
+/*定义脚注样式 */
+.footer{ background:#fff url(../images/3.png) repeat-x 0 -206px; padding:30px 0 0 0; clear:both;text-align:center;margin-top: 100px;}
+.footerBox{width:970px; margin:0 auto;color:#999999; }
+.footer .footerbot{height:41px; margin-top:10px;}
+
